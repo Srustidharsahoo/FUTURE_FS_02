@@ -1,0 +1,272 @@
+.hero-section{
+    background-color: #E8F0FE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-head{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.information-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 2rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    width: 60%;
+}
+
+.condition{
+    font-size: 1.1rem;
+    padding: .5rem 1rem;
+    background-color: #ddd;
+    border-radius: 1rem;
+}
+
+.city-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    width: 37%;
+}
+
+.city-desc{
+    font-size: 1.2rem;
+    color: #606264;
+    padding: .5rem 1rem;
+    background-color: #ddd;
+    border-radius: 1rem;
+    width: 30%;
+}
+
+.div{
+    font-size: 1.1rem;
+}
+
+.div span{
+    color: #606264;
+}
+
+.image-box img{
+    width: 8rem;
+    height: 8rem;
+}
+
+.city-name{
+    font-size: 4rem;
+}
+
+.information-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temp{
+    font-size: 4rem;
+}
+
+.information-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    
+}
+
+.information-footer div{
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+.hero-footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 1rem;
+}
+
+.div1{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: .5rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
+
+.div1-icon{
+    font-size: 1.5rem;
+    color: red;
+}
+
+.div1-name{
+    font-size: 1.1rem;
+    color: #606264;
+}
+
+.div1-temp{
+    font-size: 2rem;
+    
+}
+
+.div1-condition{
+    color: #606264;
+}
+
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    background-color: #E8F0FE;
+
+}
+
+.footer-section span{
+    color: violet;
+}
+
+
+
+@media (max-width: 431px){
+.hero-head{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    row-gap: 1rem;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.information-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 2rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.city-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-head{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    row-gap: .5rem;
+    align-items: center;
+    width: 100%;
+}
+
+.condition{
+    padding: .5rem;
+    background-color: #ddd;
+    border-radius: .5rem;
+    display: none;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img{
+    width: 80%;
+}
+
+.temp{
+    font-size: 4rem;
+}
+
+.information-footer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+}
+
+.div{
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    background-color: #ddd;
+    border-radius: .5rem;
+}
+
+.information-footer div{
+    margin: .7rem 0rem;
+}
+
+
+.city-name{
+    font-size: 3rem;
+}
+
+
+.hero-footer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: .5rem;
+}
+
+.div1{
+    padding: 1rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: .7rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
+
+.div1-name{
+    font-size: 1.3rem;
+    color: #606264;
+}
+
+.div1-temp{
+    font-size: 3rem;
+}
+
+.div1-condition{
+    font-size: 1.1rem;
+}
+}
